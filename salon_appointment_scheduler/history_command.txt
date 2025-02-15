@@ -1,0 +1,7 @@
+    1  touch salon.sh
+    2  chmod +x salon.sh 
+    3  ./salon.sh 
+    4  ./salon.sh 
+    5  history > history_command.txt
+    6  pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+    7  history > history_command.txt
