@@ -1,0 +1,115 @@
+    1  psql --username=freecodecamp --dbname=periodic_table
+    2  history
+    3  psql --username=freecodecamp --dbname=periodic_table
+    4  mkdir periodic_table && cd periodic_table
+    5  git init
+    6  ls
+    7  ls
+    8  .git/
+    9  cd .git
+   10  ls
+   11  cd ..
+   12  ls -a
+   13  git status
+   14  git checkout main
+   15  git checkout -b main
+   16  git status
+   17  git branch 
+   18  git status
+   19  git branch
+   20  git checkout main
+   21  git branch main
+   22  git status
+   23  touch README.md
+   24  ls
+   25  git status
+   26  touch element.sh
+   27  ls
+   28  git status
+   29  git add .
+   30  git commit -m "Initial commit"
+   31  git status
+   32  git checkout -b feat/add-input
+   33  git status
+   34  git status
+   35  git add element.sh 
+   36  git commit -m "feat: take input data"
+   37  git checkout main 
+   38  git branch
+   39  git merge feat/add-input 
+   40  git branch -d feat/add-input 
+   41  git checkout -b refactor/sh-architecture
+   42  git status
+   43  git diff
+   44  git add .
+   45  git status
+   46  git commit -m "refactor: added sheabang"
+   47  git status
+   48  git status
+   49  git diff
+   50  git add element.sh 
+   51  git status 
+   52  git commit -m "refactor: added psql connect"
+   53  git checkout main 
+   54  git merge refactor/sh-architecture 
+   55  git branch -d refactor/sh-architecture 
+   56  git log --oneline 
+   57  git checkout -b feat/generate-output
+   58  git status 
+   59  git status 
+   60  git add .
+   61  git diff
+   62  git commit -m "feat: added output"
+   63  git checkout main 
+   64  git merge feat/generate-output 
+   65  git branch -d feat/generate-output 
+   66  git log --oneline 
+   67  git checkout -b fix/sql-query
+   68  git status
+   69  git add .
+   70  git commit -m "fix: added sql query"
+   71  git checkout main 
+   72  git merge fix/sql-query 
+   73  git branch 
+   74  git branch -d fix/sql-query 
+   75  git branch 
+   76  git status
+   77  git branch 
+   78  git log --oneline 
+   79  chmod +x element.sh 
+   80  ./element.sh 
+   81  ./element.sh 1
+   82  ./element.sh Hydrogen
+   83  git status
+   84  git diff
+   85  git add .
+   86  git commit -m "refactor: given executable access"
+   87  git status
+   88  psql --username=freecodecamp --dbname=periodic_table
+   89  git status
+   90  git status
+   91  ./element.sh
+   92  ./element.sh 1
+   93  ./element.sh H
+   94  ./element.sh Hydrogen
+   95  ./element.sh 1
+   96  ./element.sh H
+   97  ./element.sh Hydrogen
+   98  ./element.sh 1
+   99  ./element.sh H
+  100  ./element.sh Hydrogen
+  101  ./element.sh 9
+  102  ./element.sh F
+  103  ./element.sh Fluorine
+  104  ./element.sh 999
+  105  ./element.sh foo
+  106  git status
+  107  git diff
+  108  git add .
+  109  git commit -m "fix: input validation for query"
+  110  git status
+  111  git log --oneline 
+  112  psql --username=freecodecamp --dbname=periodic_table
+  113  cd ..
+  114  pg_dump -cC --inserts -U freecodecamp periodic_table > periodic_table.sql
+  115  history > history_commands.txt
