@@ -1,0 +1,118 @@
+    1  echo Hello Users
+    2  psql --username=freecodecamp --dbname=postgres
+    3  mkdir -p project/number_guessing_game && cd project/number_guessing_game
+    4  git init
+    5  touch number_guess.sh
+    6  chmod +x number_guess.sh
+    7  git status
+    8  git add .
+    9  git commit -m "Initial commit"
+   10  git status
+   11  git add .
+   12  git commit -m "feat: add database connection and user tracking"
+   13  git status
+   14  git add .
+   15  git commit -m "fix: correct user greeting logic"
+   16  git status
+   17  git add .
+   18  git commit -m "refactor: improve input validation"
+   19  git status
+   20  git add .
+   21  git commit -m "chore: clean up script and add comments"
+   22  git log --oneline 
+   23  git checkout -b main
+   24  git status
+   25  git checkout -b maihu
+   26  git branch 
+   27  git checkout ma
+   28  git checkout main
+   29  git branch 
+   30  git branch -d maihu 
+   31  git branch -d master 
+   32  git branch 
+   33  git status
+   34  git log --oneline 
+   35  ls l
+   36  ls -l
+   37  ./number_guess.sh 
+   38  ls
+   39  cd ..
+   40  ls
+   41  ls
+   42  ls number_guessing_game/
+   43  ls -a number_guessing_game
+   44  mv number_guessing_game ../project/
+   45  mv -r number_guessing_game ../project/newproject/
+   46  mv number_guessing_game ../project/newproject/
+   47  ls
+   48  mkdir number_guessing_game
+   49  ls
+   50  ls -a newproject/
+   51  cp ./newproject/.git ./number_guessing_game/
+   52  cp -r ./newproject/.git ./number_guessing_game/
+   53  ls -a newproject/
+   54  cp -r ./newproject/number_guess.sh ./number_guessing_game/
+   55  ls -a newproject/
+   56  ls -a number_guessing_game
+   57  cd ./number_guessing_game/
+   58  ls
+   59  ls -a
+   60  ls -l
+   61  git status
+   62  cd ../
+   63  ls
+   64  exit
+   65  ls
+   66  ls project/
+   67  mv project/number_guessung_game ../project
+   68  ls
+   69  ls -l project/newproject
+   70  ls -l -a project/newproject
+   71  ls
+   72  cp ./project/newproject/.git ./number_guessung_game/
+   73  cp -r ./project/newproject/.git ./number_guessung_game/
+   74  ls -l -a project/newproject
+   75  cp -r ./project/newproject/number_guess.sh ../project/number_guessung_game/
+   76  ls -l -a number_guessung_game/
+   77  cd number_guessung_game/
+   78  ls -a
+   79  git status
+   80  git log --oneline 
+   81  cd ..
+   82  ls
+   83  rm -r project/
+   84  ls
+   85  rm -r project
+   86  ls
+   87  cd number_guessung_game/
+   88  ./number_guess.sh 
+   89  ./number_guess.sh 
+   90  cd ..
+   91  cd ..
+   92  ls
+   93  cd project/
+   94  ls
+   95  cd number_guessung_game/
+   96  git status
+   97  git diff
+   98  git add .
+   99  git commit -m "fix: logic for welcome"
+  100  git status
+  101  ./number_guess.sh 
+  102  ./number_guess.sh 
+  103  ./number_guess.sh 
+  104  ./number_guess.sh 
+  105  ./number_guess.sh 
+  106  git status
+  107  git add .
+  108  git commit -m "fix: logic fix for welcome"
+  109  ./number_guess.sh 
+  110  ./number_guess.sh 
+  111  git add .
+  112  git commit -m "fix: message fix for welcome"
+  113  ./number_guess.sh 
+  114  git status
+  115  git add .
+  116  git commit -m "fix: last modification"
+  117  pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
+  118  history > history_commands.txt
